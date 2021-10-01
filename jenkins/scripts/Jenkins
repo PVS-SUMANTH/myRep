@@ -1,5 +1,5 @@
 node {
-    stages {
+    
         stage('Build') {
             steps {
                 sh 'npm install'
@@ -11,6 +11,5 @@ node {
                 sh 'npm run clean'
             }
         }
-    }
     
 }
