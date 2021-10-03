@@ -7,7 +7,7 @@
 .sidebar_header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
 }
 
 .sidebar_right {
@@ -50,4 +50,19 @@
     color: #cec5c5;
     margin-left: 10px;
     outline-width: 0px;
+}
+
+.sidebar_Chats {
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+}
+
+.SidebarChat_info > h2 {
+    font-size:16px;
+    margin-bottom: 8px;
+}
+
+.SidebarChat_info {
+    margin-left: 15px;
 }

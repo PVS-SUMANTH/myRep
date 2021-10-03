@@ -1,0 +1,10 @@
+.SidebarChat {
+    display : flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.SidebarChat:hover {
+    background-color: #c6c6cf;
+}

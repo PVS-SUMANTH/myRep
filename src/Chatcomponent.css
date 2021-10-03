@@ -3,3 +3,69 @@
     flex-direction: column;
     flex: 0.65;
 }
+
+.chatHeader {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightblue;
+}
+
+.chatinfo {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.chatinfo > h2 {
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.chatinfo > h3 {
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.chatBody {
+    flex: 1;
+    background-color: rgb(236, 232, 232);
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.chatMessage {
+    background-color: rgb(194, 247, 109);
+    border-radius: 7px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    width: fit-content;
+    font: helvetica;
+    position: relative;
+}
+
+.chat_timeStamp {
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chat_name {
+    color: black;
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.chatReciever {
+    margin-left:auto;
+    background-color: rgb(124, 231, 110);
+    border-radius: 7px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    width: fit-content;
+    font: helvetica;
+    position: relative;
+}
