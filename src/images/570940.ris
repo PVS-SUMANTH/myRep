@@ -1,0 +1,17 @@
+TY  - JOUR
+A2  - Toma, Cristian
+AU  - Li, Muhai
+AU  - Li, Ming
+PY  - 2010
+DA  - 2010/06/01
+TI  - An Adaptive Approach for Defending against DDoS Attacks
+SP  - 570940
+VL  - 2010
+AB  - In various network attacks, the Distributed Denial-of-Service (DDoS) attack is a severe threat. In order to deal with this kind of attack in time, it is necessary to establish a special type of defense system to change strategy dynamically against attacks. In this paper, we introduce an adaptive approach, which is used for defending against DDoS attacks, based on normal traffic analysis. The approach can check DDoS attacks and adaptively adjust its configurations according to the network condition and attack severity. In order to insure the common users to visit the victim server that is being attacked, we provide a nonlinear traffic control formula for the system. Our simulation test indicates that the nonlinear control approach can prevent the malicious attack packets effectively while making legitimate traffic flows arrive at the victim.
+SN  - 1024-123X
+UR  - https://doi.org/10.1155/2010/570940
+DO  - 10.1155/2010/570940
+JF  - Mathematical Problems in Engineering
+PB  - Hindawi Publishing Corporation
+KW  - 
+ER  - 
